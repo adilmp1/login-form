@@ -1,0 +1,47 @@
+.sign-up-form{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 75%;
+    height: 60%;
+    justify-content: space-between;
+    padding: 20px 0;
+    /* row-gap: 20px; */
+    /* align-items: center; */
+}
+.sign-up-form{
+    row-gap: 17px;
+    /* align-items: center; */
+}
+
+.sign-up-form .input-pet{
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    /* font-size: large; */
+}
+
+.sign-up-form input[type='checkbox']
+{
+    width: 20px;
+}
+
+.agree{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* height: 100px; */
+    /* border: 2px solid red; */
+}
+
+.agree-text{
+    font-size: 14px;
+    transform: translate(0,-8%);
+}
+
+.info{
+    text-align: center;
+}
