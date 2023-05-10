@@ -8,7 +8,7 @@
   width: 50vh;  
   height: 60vh;
   /* background-color: yellow; */
-  background-color: rgba(0, 0, 0,0.3);
+  background: rgba(0, 0, 0,0.3);
   color: white;
   border-radius: 7px;
   padding: 30px 20px;
@@ -47,10 +47,19 @@
   cursor: pointer;
 }
 span{
-  color: blue;
+  color: rgb(189, 189, 255);
+  text-decoration: underline;
 }
 span:hover{
   cursor: pointer;
-  text-decoration: underline;
 
+}
+
+
+@media (max-width:700px)
+{
+  .container{
+      width: 40vh;
+      font-size: 20px;
+  }
 }

@@ -1,18 +1,7 @@
 input{
     color: white;
 }
-.login-form input[type='password']
-{
-    /* border: none; */
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
-    background: transparent;
-    outline: none;
-    width: 100%;
-    /* font-size: large; */
-}
-.login-form input[type='email']
+.login-form .input-pet
 {
     /* border: none; */
     border-left: 0;
@@ -40,8 +29,8 @@ input{
     flex-direction: column;
     /* border: 2px solid black; */
     width: 75%;
-    height: 60%;
-    justify-content: flex-start;
+    height: 80%;
+    /* justify-content: space-around; */
     padding: 20px 0;
     row-gap: 20px;
     align-items: center;
@@ -77,4 +66,14 @@ input[type='submit']:hover{
     display: flex;
     align-items: center;
     /* border: 2px solid; */
+}
+@media (max-width:700px)
+{
+    /* .login-form input */
+    .login-form .input-pet{
+        font-size: 22px;
+    }
+    .sign-up-form .input-pet{
+        font-size: 18px;
+    }
 }

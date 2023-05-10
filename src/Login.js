@@ -1,11 +1,11 @@
 import React from 'react'
 import './Login.css'
 const Login = (props) => {
-  const {current,setCurrent,switchToSignUp,switchSignUp} = props;
+  const {current,setCurrent,switchToSignUp,switchSignUp} = props;      
   return (
         <form className='login-form'>
-            <input placeholder='Email' type='email' required/>
-            <input placeholder='Password' type='password' required/>
+            <input className='input-pet' placeholder='Email' type='email' required/>
+            <input className='input-pet' placeholder='Password' type='password' required/>
             <div className='remember-passowrd'>
                 <input type='checkbox' />Remember password
             </div>
