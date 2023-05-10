@@ -35,7 +35,7 @@ input{
     /* font-size: large; */
 }
 
-form{
+.login-form{
     display: flex;
     flex-direction: column;
     /* border: 2px solid black; */
@@ -45,6 +45,17 @@ form{
     padding: 20px 0;
     row-gap: 20px;
     align-items: center;
+    transition: all .5s ease-in-out;
+    animation: transitionRight 0.5s;
+}
+
+@keyframes transitionRight{
+    from{
+        margin-left: -1000px;
+    }
+    to{
+        margin-left: 0px;
+    }
 }
 
 input[type='submit']{

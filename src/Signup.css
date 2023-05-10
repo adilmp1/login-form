@@ -6,9 +6,19 @@
     height: 60%;
     justify-content: space-between;
     padding: 20px 0;
-    /* row-gap: 20px; */
-    /* align-items: center; */
+    transition: all .5s ease-in-out;
+    animation: transitionLeft 0.5s;
 }
+
+@keyframes transitionLeft{
+    from{
+        margin-right: -1000px;
+    }
+    to{
+        margin-right: 0px;
+    }
+}
+
 .sign-up-form{
     row-gap: 17px;
     /* align-items: center; */
